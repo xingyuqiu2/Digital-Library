@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../static/css/top_books_authors.css">
+    <title>Digital Library</title>
+</head>
+
+<body>
+    <h1 onclick="window.location = 'http://127.0.0.1:5000/'">Digital Library</h1>
+    <h3>Top k Rating Authors</h3>
+    <p>
+        <svg class="bar-chart"></svg>
+        <div>
+            <form>
+                Number of top rating books: 
+                <input id='input-k' type="text">
+                <button id="build-button"> build
+                </button>
+            </form>
+        </div>
+    </p>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="{{ url_for('static', filename='js/top_authors.js') }}"></script>
+
+</body>
+
+</html>

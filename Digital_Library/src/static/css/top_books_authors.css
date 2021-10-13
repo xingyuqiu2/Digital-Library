@@ -1,0 +1,42 @@
+body {
+    background-color:thistle;
+}
+
+h1 {
+    margin-left: 30vmin;
+    margin-right: 30vmin;
+}
+
+h3 {
+    font-size: 3vmin;
+    margin-left: 15vmin;
+    margin-right: 25vmin;
+}
+
+svg {
+    font-size: 3vmin;
+    margin-left: 15vmin;
+    margin-right: 15vmin;
+}
+
+div {
+    margin-left: 15vmin;
+    margin-right: 15vmin;
+}
+
+form {
+    font-size: 3vmin;
+}
+
+input {
+    vertical-align: middle;
+}
+
+button {
+    font-size: 3vmin;
+    margin-left: 1vmin;
+}
+
+g {
+    font-size: 2vmin;
+}

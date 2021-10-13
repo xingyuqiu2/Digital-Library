@@ -1,0 +1,42 @@
+body {
+    background-color:moccasin;
+}
+
+h1 {
+    font-size: 4vmin;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+button {
+    font-size: 3vmin;
+    width: 20vmin;
+    height: 10vmin;
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+    margin-left: 3vmin;
+    margin-right: 3vmin;
+}
+
+p {
+    margin-top: 10vmin;
+    margin-bottom: 10vmin;
+    margin-left: 20vmin;
+    margin-right: 20vmin;
+}
+
+#button-get-or-delete {
+    background-color: fuchsia;
+}
+
+#button-put-or-post {
+    background-color: aquamarine;
+}
+
+#button-top-books {
+    background-color: chartreuse;
+}
+
+#button-top-authors {
+    background-color:burlywood;
+}
